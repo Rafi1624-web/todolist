@@ -61,7 +61,7 @@ export default function Navbar() {
 
       {/* Mobile Nav */}
       {menuOpen && (
-        <ul className="md:hidden mt-4 flex flex-col gap-2 text-base">
+        <ul className="md:hidden mt-4 flex flex-col gap-2 text-base bg-lime-700">
           {navItems.map((item) => (
             <li
               key={item.label}
