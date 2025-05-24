@@ -6,26 +6,33 @@ function App() {
   return (
     <>
       <Navbar />
+      {/* Hero Section */}
+        <div
+          className="text-center mb-16 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url(${banner})` }}
 
+        >
+          <section className="bg-black/50 px-4 py-16 text-white">
+
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+              Crafting Identity, One Detail at a Time
+            </h1>
+            <p className="text-xl mb-4">
+              Where Corporate Stationery Meets Brand Storytelling
+            </p>
+            <p className="text-lg mb-6">📦 Thoughtfully Designed. ✍️ Uniquely Yours.</p>
+            <div className="flex justify-center gap-4 flex-wrap">
+              <button className="bg-lime-700 text-white px-6 py-2 rounded hover:bg-lime-800">
+                Let’s Build Your Brand
+              </button>
+              <button className="bg-white text-lime-700 border border-lime-700 px-6 py-2 rounded hover:bg-lime-100">
+                Explore Our Creations
+              </button>
+            </div>
+          </section>
+        </div>
       <main className="pt-28 px-6 md:px-52 pb-16 bg-[#f0ffec] text-lime-900">
-        {/* Hero Section */}
-        <section className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Crafting Identity, One Detail at a Time
-          </h1>
-          <p className="text-xl mb-4">
-            Where Corporate Stationery Meets Brand Storytelling
-          </p>
-          <p className="text-lg mb-6">📦 Thoughtfully Designed. ✍️ Uniquely Yours.</p>
-          <div className="flex justify-center gap-4 flex-wrap">
-            <button className="bg-lime-700 text-white px-6 py-2 rounded hover:bg-lime-800">
-              Let’s Build Your Brand
-            </button>
-            <button className="bg-white text-lime-700 border border-lime-700 px-6 py-2 rounded hover:bg-lime-100">
-              Explore Our Creations
-            </button>
-          </div>
-        </section>
+        
 
         {/* About Section */}
         <section className="mb-16">
