@@ -2,7 +2,9 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ImageCard from './components/itemcard';
-import banner from './assets/banner.png';
+import banner from './assets/banner.png'; 
+
+
 function App() {
   return (
     <>
@@ -32,9 +34,9 @@ function App() {
             </div>
           </section>
         </div>
+
       <main className="pt-28 px-6 md:px-52 pb-16 bg-[#f0ffec] text-lime-900">
         
-
         {/* About Section */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold mb-4">About PaperPallet</h2>
@@ -109,30 +111,30 @@ function App() {
           <h2 className="text-3xl font-bold mb-8 justify-center items-center">Portfolio / Our Work</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
             <ImageCard
-            imageUrl="src/assets/image1.jpeg"
-            title="Real Estate Welcome Kit"
-            link=""
-          />
-          <ImageCard
-            imageUrl="src/assets/image1.jpeg"
-            title="Tech Startup Branding Set"
-            link=""
-          />
-          <ImageCard
-            imageUrl="src/assets/image1.jpeg"
-            title="NGO Notebook Campaign"
-            link=""
-          />
-          <ImageCard
-            imageUrl="src/assets/image1.jpeg"
-            title="Law Firm Premium Stationery"
-            link=""
-          />
-          <ImageCard
-            imageUrl="src/assets/image1.jpeg"
-            title="Eid Corporate Gifting Series"
-            link=""
-          />
+              imageUrl="src/assets/image1.jpeg"
+              title="Real Estate Welcome Kit"
+              link=""
+            />
+            <ImageCard
+              imageUrl="src/assets/image1.jpeg"
+              title="Tech Startup Branding Set"
+              link=""
+            />
+            <ImageCard
+              imageUrl="src/assets/image1.jpeg"
+              title="NGO Notebook Campaign"
+              link=""
+            />
+            <ImageCard
+              imageUrl="src/assets/image1.jpeg"
+              title="Law Firm Premium Stationery"
+              link=""
+            />
+            <ImageCard
+              imageUrl="src/assets/image1.jpeg"
+              title="Eid Corporate Gifting Series"
+              link=""
+            />
           </div>
           <button className="mt-10 bg-white text-lime-700 border border-lime-700 px-6 py-2 rounded hover:bg-lime-100">
             View Full Portfolio
